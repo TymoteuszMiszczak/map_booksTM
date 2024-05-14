@@ -16,7 +16,7 @@ ramka_szczegoly_obiektu.grid(row=1, column=0)
 
 # ramka_lista_obiektów
 label_lista_obiektow=Label(ramka_lista_uzytkownikow, text='Lista znajomych:')
-listbox_lista_obiektow=(ramka_lista_uzytkownikow)
+listbox_lista_obiektow=Listbox(ramka_lista_uzytkownikow,width=30)
 button_pokaz_szczegoly=Button(ramka_lista_uzytkownikow, text='Pokaz szczegoly')
 button_usun_uzytkownika=Button(ramka_lista_uzytkownikow, text="Usuń")
 button_edytuj_uzytkownika=Button(ramka_lista_uzytkownikow, text="Edytuj")

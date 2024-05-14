@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print('2.Dodaj znajomego: ')
         print('3.Wyszukaj znajomego: ')
         print('4.Usuń znajmoego: ')
-        print("5. Zaktualizuj znajomego")
+        print("5.Zaktualizuj znajomego")
         menu_option:str=input('Wybierz dostępną funckję z menu: ')
         if menu_option=='0':
             break
